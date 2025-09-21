@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AnkaToken</title>
+    <style>
+        /* Genel Stil */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to bottom, #f7f7f7, #eaeaea);
+            color: #333;
+        }
+
+        header {
+            background-color: #1a1a1a;
+            color: white;
+            padding: 30px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            color: #ff6600;
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        header p {
+            margin-top: 10px;
+            font-size: 1.2em;
+        }
+
+        main {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        /* Token Kartı */
+        .token-card {
+            background: white;
+            border-radius: 20px;
+            padding: 30px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            transition: transform 0.3s;
+        }
+
+        .token-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .token-logo {
+            width: 100px;
+            height: 100px;
+            background-color: #ff6600;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2.5em;
+            color: white;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        .token-card h2 {
+            margin-bottom: 15px;
+            color: #1a1a1a;
+        }
+
+        .token-card p {
+            margin: 8px 0;
+            font-size: 1.1em;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 25px 20px;
+            background-color: #1a1a1a;
+            color: white;
+            margin-top: 50px;
+        }
+
+        a {
+            color: #ff6600;
+            text-decoration: none;
+        }
+
+        @media(max-width: 600px){
+            .token-card {
+                padding: 20px;
+            }
+
+            header h1 {
+                font-size: 2em;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>AnkaToken</h1>
+        <p>Genesis Blockchain Altında GNS20 Token</p>
+    </header>
+
+    <main>
+        <div class="token-card">
+            <div class="token-logo">A</div>
+            <h2>Token Detayları</h2>
+            <p><strong>Token Adı:</strong> AnkaToken</p>
+            <p><strong>Token Tipi:</strong> GNS20</p>
+            <p><strong>Kontrat Adresi:</strong> GNS20-5D8B7154A4B44541A6538BD5D83F8593</p>
+            <p><strong>Toplam Arz:</strong> 100,000,000</p>
+        </div>
+
+        <div class="token-card" style="margin-top: 30px;">
+            <h2>Hakkında</h2>
+            <p>AnkaToken, Genesis Blockchain üzerinde çalışan bir GNS20 tokenidir. Toplam arzı 100 milyon olarak belirlenmiştir ve gelecekte çeşitli uygulamalarda kullanılabilir.</p>
+        </div>
+    </main>
+
+    <footer>
+        &copy; 2025 AnkaToken. Tüm hakları saklıdır.
+    </footer>
+
+</body>
+</html>
